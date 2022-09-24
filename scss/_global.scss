@@ -49,3 +49,18 @@ a {
   margin: 0 auto;
   padding: $global_pad;
 }
+@media screen and (max-width: 1100px) {
+  .container{
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width:860px) {
+  .container{
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width:600px) {
+  .container{
+    padding: 0 5px;
+  }
+}
