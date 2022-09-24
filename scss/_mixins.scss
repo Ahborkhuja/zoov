@@ -1,3 +1,27 @@
-@mixin name {
-  
+@mixin dis-fle($a:center,$j:space-between){ 
+  display: flex;
+  align-items: $a;
+  justify-content: $j;
+}
+@mixin btn($text_col: white, $back_col: default, $border_col: transparent) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: $text_col;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 13px 42px;
+  background: $back_col;
+  border-radius: 8px;
+  border: 1px solid $border_col;
+}
+
+@mixin navbar__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: white;
 }
