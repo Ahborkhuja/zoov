@@ -109,6 +109,7 @@ a {
   height: 800px;
   background-image: url("../../img/hero_bg.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .site_header {
