@@ -231,4 +231,11 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
+}
+
+.hero {
+  padding-top: 160px;
+  background-image: url("../../img/ZOOOV (Stroke).svg");
+  background-repeat: no-repeat;
+  background-position: center calc(50% - 100px);
 }/*# sourceMappingURL=main.min.css.map */
