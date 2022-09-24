@@ -1,0 +1,31 @@
+.wrapper {
+  height: 800px;
+  background-image: url("../../img/hero_bg.png");
+  background-repeat: no-repeat;
+}
+
+.site_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.site_header__inner {
+  margin-top: 16px;
+  @include dis-fle;
+}
+
+.site_header__navbar {
+  margin-left: 50px;
+  max-width: 740px;
+  width: 100%;
+}
+
+.navbar__list {
+  @include dis-fle;
+}
+
+.navbar__link {
+  @include navbar__link;
+}
