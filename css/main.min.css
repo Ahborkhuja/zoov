@@ -49,6 +49,21 @@ a {
   padding: 0 120px;
 }
 
+@media screen and (max-width: 1100px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 5px;
+  }
+}
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -109,6 +124,8 @@ a {
   height: 800px;
   background-image: url("../../img/hero_bg.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }
 
 .site_header {
@@ -137,10 +154,90 @@ a {
   justify-content: space-between;
 }
 
+.navbar__sub_list {
+  position: fixed;
+  left: 0;
+  top: 70px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+
+.navbar__sub_item {
+  margin-top: 40px;
+}
+
 .navbar__link {
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
   text-align: center;
   color: white;
+}
+
+.navbar__sub_link {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.navbar__sub_item:nth-child(1) {
+  margin-top: 52px;
+}
+
+.site_header__burger {
+  height: 18px;
+  width: 27px;
+  background-image: url("../../img/header_burger.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .site_header__inner {
+    margin: 0 24px;
+    margin-top: 10px;
+  }
+  .navbar__list {
+    display: none;
+  }
+  .site_header__burger {
+    display: inline-block;
+  }
+}
+.open {
+  display: flex;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.bgcol {
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+.exit {
+  background-image: url("../../img/X.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+}
+
+.hero {
+  padding-top: 160px;
+  background-image: url("../../img/ZOOOV (Stroke).svg");
+  background-repeat: no-repeat;
+  background-position: center calc(50% - 100px);
 }/*# sourceMappingURL=main.min.css.map */
