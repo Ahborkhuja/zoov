@@ -31,7 +31,7 @@
 .navbar__sub_list {
   position: fixed;
   left: 0;
-  top: 70px;
+  top: 63px;
   right: 0;
   bottom: 0;
   width: 100%;
@@ -93,8 +93,10 @@
 }
 
 .bgcol {
-  position: fixed;
+  position: absolute;
   top: 0;
+  right: 0;
+  left: 0;
   background-color: white;
 }
 

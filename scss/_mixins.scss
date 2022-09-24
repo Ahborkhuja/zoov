@@ -4,6 +4,7 @@
   justify-content: $j;
 }
 @mixin btn($text_col: white, $back_col: default, $border_col: transparent) {
+  width: 226px;
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;

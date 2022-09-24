@@ -1,18 +1,37 @@
-.hero{
-  padding-top:160px;
+.hero {
+  padding-top: 160px;
   background-image: url("../../img/ZOOOV\ \(Stroke\).svg");
   background-repeat: no-repeat;
-  background-position: center calc(50% - 100px);
+  background-position: calc(50% + 920px) bottom;
 }
-.hero__inner{
 
+.hero__inner {
+  padding-bottom: 133px;
+  max-width: 440px;
+  @include dis-fle(left);
+  flex-direction:column;
 }
-.hero__inner h1{
 
-}
-.hero__inner p{
 
+.hero__inner h1 {
+  margin-bottom: 10px;
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: white;
 }
-.hero__inner a{
-  
+
+.hero__inner p {
+  max-width: 345px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: white;
+}
+
+.hero__inner a {
+  @include btn(white,red);
 }
